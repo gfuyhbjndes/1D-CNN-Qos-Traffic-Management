@@ -1,0 +1,14 @@
+venv/
+env/
+ __pycache__/
+*.py[cod]
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+models/*.pth
+!models/.gitkeep
+.DS_Store
+.vscode/
+.idea/
